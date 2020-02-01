@@ -1,0 +1,27 @@
+
+/*card panel*/
+.card-panel{
+	box-shadow: 0 3px 10px rgba(0,0,0,0.9);
+	border-radius: 12px;
+	padding: 5px;
+	padding-top: 10px;
+}
+.card-panel img{
+	width: 500px;
+	height: 250px;
+}
+.card-panel p{
+	margin-top: -10px;
+}
+.card-panel a{
+	margin-top: -10px;
+	margin-bottom: 5px
+}
+
+
+@media (min-width: 992px){
+	.card-panel img{
+		width: 280px;
+		height: 200px;
+	}
+}
